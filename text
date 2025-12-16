@@ -1,0 +1,491 @@
+<h2>عکس‌های ورونیژ</h2>
+    <p>برای مشاهده بیشتر در مورد ورونیژ، به عکس‌های زیر نگاه کنید:</p>
+    
+    <div class="gallery">
+        <img src="images/photo1.jpg" alt="Фото 1" class="gallery-img">
+        <img src="images/photo2.jpg" alt="Фото 2" class="gallery-img">
+        <img src="images/photo3.jpg" alt="Фото 3" class="gallery-img">
+        <img src="images/photo4.jpg" alt="Фото 4" class="gallery-img">
+    </div>
+
+
+
+<h2>ویدیو در مورد ورونیژ</h2>
+    <p>برای مشاهده بیشتر در مورد ورونیژ، <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">اینجا کلیک کنید</a>.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:root {
+    --main-bg-image: url('images/111.png');
+    --main-bg-color: rgba(0, 0, 0, 0.5);
+    --text-color: #fff;
+    --border-radius: 8px;
+    --padding: 1em;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-image: var(--main-bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--text-color);
+    direction: rtl;
+    /* Направление текста справа налево для поддержки персидского языка */
+}
+
+h1, h2 {
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 1em;
+}
+
+p {
+    background-color: var(--main-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    max-width: 800px;
+    margin: 2em auto;
+    line-height: 1.6;
+    text-align: justify;
+    /* Выравнивание текста по ширине для лучшей читаемости */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* тень для текста */
+}
+
+a {
+    color: #1e90ff; /* синий цвет для ссылок */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #63a4ff; /* более светлый синий цвет при наведении */
+}
+
+iframe {
+    display: block;
+    margin: 2em auto; /* центрирование iframe */
+    border: none;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: var(--padding);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5); /* добавление тени */
+}
+
+
+<section>
+            <h2>تماس با ما</h2>
+            <p>برای ارتباط با ما و دریافت اطلاعات بیشتر، می‌توانید از بخش تماس با ما استفاده کنید.</p>
+            <a href="contact.html" class="button">تماس بگیرید</a>
+        </section>
+
+
+
+
+        <h1>منابع مفید در وورونژ</h1>
+            <section id="education">
+                <h2>آموزش و پرورش</h2>
+                <ul>
+                    <li><strong>دانشگاه‌ها:</strong>
+                        <ul>
+                            <li><a href="https://www.vsu.ru/">دانشگاه دولتی وورونژ</a></li>
+                            <li><a href="https://www.vorstu.ru/">دانشگاه دولتی فنی وورونژ</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>کتابخانه‌ها:</strong>
+                        <ul>
+                            <li>کتابخانه مرکزی وورونژ</li>
+                            <li>کتابخانه علمی و فنی وورونژ</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="work">
+                <h2>کار و شغل</h2>
+                <ul>
+                    <li><strong>سایت‌های جستجوی کار:</strong>
+                        <ul>
+                            <li><a href="https://voronezh.hh.ru/">hh.ru</a></li>
+                            <li><a href="https://www.superjob.ru/">SuperJob</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>مشاغل محلی و آژانس‌های کاریابی:</strong>
+                        <ul>
+                            <li>آژانس‌های کاریابی محلی مانند «Агентство по трудоустройству»</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="personal-development">
+                <h2>توسعه شخصی</h2>
+                <ul>
+                    <li><strong>باشگاه‌های ورزشی و سلامت:</strong>
+                        <ul>
+                            <li>باشگاه‌های ورزشی مانند "World Class Voronezh" و "FitFashion"</li>
+                        </ul>
+                    </li>
+                    <li><strong>کلاس‌های زبان:</strong>
+                        <ul>
+                            <li>آموزشگاه‌های زبان محلی مانند "English First" و "Language Link"</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="technology">
+                <h2>تکنولوژی و توسعه</h2>
+                <ul>
+                    <li><strong>مراکز تکنولوژی و نوآوری:</strong>
+                        <ul>
+                            <li>مرکز نوآوری تکنولوژی "IT-Cube Voronezh"</li>
+                            <li>پارک تکنولوژی "TechnoSpark"</li>
+                        </ul>
+                    </li>
+                    <li><strong>رویدادها و کنفرانس‌ها:</strong>
+                        <ul>
+                            <li>کنفرانس سالانه IT "Voronezh IT Forum"</li>
+                            <li>رویدادهای استارتاپی و کارآفرینی "Startup Village"</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+        <!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محصلین افغانستان در ورونژ</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "z-pybqrvdbwb8vUlP",
+      });
+   })();
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">صفحه اصلی</a></li>
+                <li><a href="#" onclick="showPage('about')">درباره ورونژ</a></li>
+                <li><a href="#" onclick="showPage('attractions')">جاذبه ها</a></li>
+                <li><a href="#" onclick="showPage('resources')">منابع مفید</a></li>
+                <li><a href="#" onclick="showPage('life')">زندگی در ورونژ</a></li>
+                <li><a href="#" onclick="showPage('contact')">ارتباطات</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="google_translate_element"></div>
+    <main>
+        <div id="home" class="page">
+            <h1>خوش آمدید به سایت ما !</h1>
+            <p>این سایت برای محصلین افغانستان که در ورونژ روسیه تحصیل می‌کنند ایجاد شده است. در اینجا می‌توانید اطلاعات مفیدی در مورد شهر ورونژ، گالری تصاویر، و راه‌های تماس با ما را بیابید.</p>
+            
+            <h1>آخرین اخبار</h1>
+            <p>ما همواره جدیدترین اخبار و اطلاعات مربوط به محصلین افغانستان در ورونژ را در این بخش قرار می‌دهیم.</p>
+            
+        </div>
+        <div id="about" class="page" style="display:none;">
+            <h1>در مورد ورونژ</h1>
+            <p>ورونژ یک شهر بزرگ در روسیه است و مرکز اداری استان ورونژ محسوب می‌شود. این شهر در ساحل رودخانه ورونژ و در ۱۲ کیلومتری محل اتصال این رود به رودخانه دان قرار دارد. در ادامه به برخی از نکات جالب درباره ورونژ اشاره می‌کنیم:</p>
+            <h2>تاریخچه</h2>
+            <p>ورونژ در سال ۱۵۸۶ به عنوان یک قلعه تأسیس شد تا از مرزهای جنوبی دولت مسکو در برابر حملات تاتارهای کریمه محافظت کند. این شهر نقش مهمی در تاریخ روسیه ایفا کرده است، به ویژه در طول جنگ جهانی دوم که به شدت تخریب شد، اما پس از آن بازسازی شد.</p>
+            <h2>اهمیت فرهنگی</h2>
+            <p>ورونژ یکی از مراکز فرهنگی روسیه به شمار می‌رود. در این شهر تعداد زیادی تئاتر، موزه و بناهای معماری وجود دارد. یکی از معروف‌ترین تئاترهای این شهر، تئاتر درام دولتی ورونژ به نام آ. کولتسوف است.</p>
+            <h2>آموزش</h2>
+            <p>دانشگاه دولتی ورونژ (VGU) یکی از دانشگاه‌های برجسته روسیه در این شهر واقع شده است. علاوه بر این دانشگاه، موسسات آموزشی دیگری نیز در ورونژ فعالیت می‌کنند.</p>
+            <h2>اقتصاد</h2>
+            <p>ورونژ یک مرکز مهم صنعتی و اقتصادی است. صنایع ماشین‌سازی، شیمیایی و صنایع غذایی در این شهر توسعه یافته‌اند.</p>
+            <h2>معماری</h2>
+            <p>در ورونژ می‌توانید تعداد زیادی از ساختمان‌ها و یادمان‌های زیبا را ببینید. یکی از دیدنی‌های مشهور این شهر، کلیسای جامع بلاگووشنسکی است که یکی از بزرگترین معابد ارتدکس در روسیه محسوب می‌شود.</p>
+            <h2>طبیعت</h2>
+            <p>شهر ورونژ توسط مناظر طبیعی زیبا احاطه شده است. در ورونژ تعداد زیادی پارک، باغ و مناطق سبز وجود دارد که می‌توانید در آنها به استراحت و لذت بردن از طبیعت بپردازید.</p>
+            <h2>عکس‌های ورونژ</h2>
+            <div class="gallery">
+                <img src="https://bloknot-voronezh.ru/thumb/1200x0xcut/upload/iblock/67b/j9h3dz3wh2kvobcjwz5peve8k8wfcu8j/IMG_3231.jpg" alt="Фото 3" class="gallery-img">
+                <img src="https://tv-gubernia.ru/images/news/2018/00000000000000000000000000087654.jpg" alt="Фото 4" class="gallery-img">
+                <img src="https://sun6-23.userapi.com/impg/BS775LfrkqPiu5F8LKil3VLlhH_-1GgvGpGDhg/gietLGQ1dCQ.jpg?size=1280x958&quality=96&sign=71469a2ffc5644f6c7286b3a174926e2&c_uniq_tag=-TFXjOw3mS8cmk4k2imgOvRsIXbRrMSB70TbEpmrbqM&type=album" alt="Фото 3" class="gallery-img">
+                <img src="https://live.staticflickr.com/65535/53217568518_4c0b052088_o.jpg" alt="Фото 4" class="gallery-img">
+                <img src="https://avatars.mds.yandex.net/i?id=d431c32db0064eb171691703951cc2c3_l-10640350-images-thumbs&n=13" alt="Фото 1" class="gallery-img">
+                <img src="https://regions.kp.ru/vrn/tns-ehnergo-prazdnichnaya-aktsiya/images/tild3337-6665-4939-a165-303831376164__photo.jpg" alt="Фото 2" class="gallery-img">
+                <img src="https://img.magput.ru/pics/large/a0511a20-fdb4-4dfd-bb99-f83a4581df68.jpg" alt="Фото 3" class="gallery-img">
+                <img src="https://img.magput.ru/pics/large/9322b3e1-aeb5-4f69-a289-25431889565a..jpg" alt="Фото 4" class="gallery-img">
+                <img src="https://avatars.mds.yandex.net/i?id=1ea6461a8eb565f86258e487d0033ce4_l-5433078-images-thumbs&n=13" alt="Фото 1" class="gallery-img">
+            </div>
+            <h2>ویدیو در مورد ورونژ</h2>
+            <p>برای مشاهده بیشتر در مورد ورونژ، <a href="https://youtu.be/bMqY6gxjTHY" target="_blank">اینجا کلیک کنید</a>.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMqY6gxjTHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="attractions" class="page" style="display:none;">
+            <h1>جاذبه‌ها</h1>
+            <h2>کلیسای جامع بلاگووشنسکی (Blagoveshchensky Cathedral)</h2>
+            <p>این کلیسای جامع یکی از بزرگ‌ترین معابد ارتدکس در روسیه است و با معماری زیبا و تاریخی خود جلب توجه می‌کند. این کلیسا در قرن نوزدهم ساخته شده و یکی از نمادهای اصلی شهر ورونژ به شمار می‌رود.</p>
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/i?id=f7cb790ff7dbbe15e6d94b754fb0fdf1_l-4426074-images-thumbs&n=13" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>پارک پتروفسکی (Petrovsky Park)</h2>
+            <p>این پارک زیبا و سرسبز در مرکز شهر واقع شده و مکانی عالی برای پیاده‌روی، استراحت و لذت بردن از طبیعت است. در این پارک مجسمه‌های تاریخی و باغ‌های زیبا وجود دارد.</p>
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/i?id=01952e191de22c81fd04b5603a1df770_l-7756253-images-thumbs&n=13" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>موزه محلی ورونژ (Voronezh Regional Museum)</h2>
+            <p>این موزه یکی از قدیمی‌ترین موزه‌های روسیه است و مجموعه‌ای گسترده از اشیاء تاریخی، فرهنگی و طبیعی را در خود جای داده است. این موزه برای علاقمندان به تاریخ و فرهنگ منطقه بسیار جالب است.</p>
+            <div class="gallery">
+                <img src="https://sun9-37.userapi.com/impg/YfCoP0XqruxBBQ-E-PlbbWf4JVPqzZHxcKDX6g/rt9WwuhPBCo.jpg?size=1920x1080&quality=95&sign=f1930f8b9f6e36a2114572ddb7686e0d&c_uniq_tag=DQdN1ki43dg9ie7LaImvv2G-turyblSgS6WA9x6d8Rg&type=album" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>تئاتر درام دولتی ورونژ به نام آ. کولتسوف (Voronezh State Academic Drama Theatre named after A. Koltsov)</h2>
+            <p>این تئاتر یکی از معروف‌ترین تئاترهای ورونژ است و برنامه‌های هنری و نمایشی متنوعی را ارائه می‌دهد. ساختمان تئاتر نیز با معماری زیبای خود جلب توجه می‌کند.</p>
+            <div class="gallery">
+                <img src="https://cdn.culture.ru/images/6d3ddd6c-e3b0-5705-8b5a-885a02e7bcca" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>پل چوجکوفسکی (Chernavsky Bridge)</h2>
+            <p>این پل یکی از نمادهای معماری مدرن ورونژ است و چشم‌انداز زیبایی از رودخانه ورونژ و شهر را ارائه می‌دهد. پیاده‌روی بر روی این پل تجربه‌ای دلنشین است.</p>
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/i?id=fa01c8fb4b82eb9890256903538d46e9_l-5233210-images-thumbs&n=13" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>کاخ و باغ رامون (Ramon Palace and Park)</h2>
+            <p>این مجموعه تاریخی در نزدیکی ورونژ واقع شده و شامل یک کاخ زیبا و باغ‌های وسیع است. این مکان یکی از بهترین نمونه‌های معماری کلاسیک روسیه است و بازدید از آن توصیه می‌شود.</p>
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/i?id=7718119a7d56454e2fc5dcec6be94b7b_l-5333638-images-thumbs&n=13" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>خانه-موزه آندری پلاخوف (Andrey Plakhov House-Museum)</h2>
+            <p>این موزه به یکی از چهره‌های برجسته هنر و فرهنگ ورونژ، آندری پلاخوف، اختصاص دارد. بازدیدکنندگان می‌توانند با زندگی و آثار این هنرمند آشنا شوند و مجموعه‌ای از هنرهای محلی و تاریخی را ببینند.</p>
+            <div class="gallery">
+                <img src="https://hello-kaliningrad.ru/wp-content/uploads/2019/01/web12-1.jpg" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>موزه کشتی دریایی گوتو پردستاتیا (Goto Predestination)</h2>
+            <p>این موزه در واقع یک کشتی بازسازی‌شده از قرن هجدهم است که به دستور پتر کبیر ساخته شده بود. این کشتی نمادی از تاریخ دریانوردی روسیه است و بازدید از آن تجربه‌ای منحصر به فرد است.</p>
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/get-altay/1773749/2a0000016ae331109b790579c8394b483786/orig" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>میدان لنین (Lenin Square)</h2>
+            <p>این میدان یکی از نقاط مرکزی ورونژ است و به خاطر مجسمه لنین و بناهای اطرافش معروف است. این مکان جایی است که بسیاری از رویدادهای عمومی و جشن‌های شهر در آن برگزار می‌شود.</p>
+            <div class="gallery">
+                <img src="https://photocentra.ru/images/main79/794428_main.jpg" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>کتابخانه دولتی نیکیتین ورونژ (Nikitin Voronezh State Library)</h2>
+            <p>این کتابخانه یکی از بزرگ‌ترین و قدیمی‌ترین کتابخانه‌های منطقه است و مجموعه‌ای عظیم از کتاب‌ها و منابع تحقیقاتی را در خود جای داده است. ساختمان کتابخانه نیز از نظر معماری قابل توجه است.</p>
+            <div class="gallery">
+                <img src="https://cdn.culture.ru/images/cfe1dc4a-d4a8-5610-8071-e88a17c61f12" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>باغ وحش ورونژ (Voronezh Zoo)</h2>
+            <p>این باغ وحش یکی از بهترین مکان‌ها برای خانواده‌ها و کودکان است که می‌توانند انواع حیوانات از سراسر جهان را ببینند. باغ وحش برنامه‌های آموزشی و تفریحی متنوعی را نیز ارائه می‌دهد.</p>
+            <div class="gallery">
+                <img src="https://zooparkvrn.ru/wp-content/uploads/2021/10/img-20211013-wa0013.jpg" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>پارک دایناسورها (Dinopark)</h2>
+            <p>این پارک تفریحی با موضوع دایناسورها یکی از جاذبه‌های منحصر به فرد ورونژ است که شامل مجسمه‌های بزرگ دایناسورها و مناطق بازی برای کودکان می‌باشد. این پارک مکانی عالی برای گذراندن وقت با خانواده است.</p>
+            <div class="gallery">
+                <img src="https://region82.su/wp-content/uploads/2018/10/dinopak-rex-f01.jpg" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>موزه هنرهای تجسمی ورونژ (Voronezh Museum of Fine Arts)</h2>
+            <p>این موزه مجموعه‌ای از آثار هنری از دوره‌های مختلف تاریخی را به نمایش می‌گذارد، از جمله نقاشی‌ها، مجسمه‌ها و هنرهای کاربردی. موزه هنرهای تجسمی ورونژ یکی از مکان‌های برجسته فرهنگی شهر است.</p>
+            <div class="gallery">
+                <img src="https://cdn.culture.ru/c/713130.jpg" alt="Фото 3" class="gallery-img">
+            </div>
+            <h2>کلیسای جامع سنت نیکلاس (St. Nicholas Church)</h2>
+            <p>این کلیسا یکی دیگر از جاذبه‌های مذهبی ورونژ است که با معماری زیبای خود جلب توجه می‌کند. کلیسای جامع سنت نیکلاس یکی از مهم‌ترین مکان‌های عبادت و زیارت در شهر است.</p>
+            <div class="gallery">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/1888829/pub_62093c25bfa2780ea2481414_62093f853d084f41d97a8fb7/scale_1200" alt="Фото 3" class="gallery-img">
+            </div>
+        </div>
+        <div id="resources" class="page" style="display:none;">
+            <h1>منابع مفید در ورونژ</h1>
+            <h2>آموزش و پرورش</h2>
+            <section id="education">
+                
+                <ul>
+                    <li><strong>دانشگاه‌ها:</strong>
+                        <ul>
+                            <li><a href="https://www.vsu.ru/">دانشگاه دولتی ورونژ</a></li>
+                            <li><a href="https://cchgeu.ru//">دانشگاه دولتی فنی ورونژ</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>کتابخانه‌ها:</strong>
+                        <ul>
+                            <li><a href="https://www.libvrn.ru/">کتابخانه مرکزی ورونژ</a></li>
+                            <li><a href="https://zoon.ru/voronezh/cultural_places/type/nauchno_tekhnicheskaya_biblioteka/">کتابخانه علمی و فنی ورونژ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <h2>کار و شغل</h2>
+            <section id="work">
+                
+                <ul>
+                    <li>
+                        <strong>سایت‌های جستجوی کار:</strong>
+                        <ul>
+                            <li>
+                                <a href="https://voronezh.hh.ru/">
+                                    <i class="fas fa-briefcase"></i>
+                                    hh.ru
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.superjob.ru/">
+                                    <i class="fas fa-search"></i>
+                                    SuperJob
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <h2>توسعه شخصی</h2>
+            <section id="personal-development">
+                
+                <ul>
+                    <li><strong>باشگاه‌های ورزشی و سلامت:</strong>
+                        <ul>
+                            <li>باشگاه‌های ورزشی مانند "World Class Voronezh" و "FitFashion"</li>
+                        </ul>
+                    </li>
+                    <li><strong>کلاس‌های زبان:</strong>
+                        <ul>
+                            <li>آموزشگاه‌های زبان محلی مانند "English First" و "Language Link"</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <h2>تکنولوژی و توسعه</h2>
+            <section id="technology">
+                
+                <ul>
+                    <li><strong>مراکز تکنولوژی و نوآوری:</strong>
+                        <ul>
+                            <li>مرکز نوآوری تکنولوژی "IT-Cube Voronezh"</li>
+                            <li>پارک تکنولوژی "TechnoSpark"</li>
+                        </ul>
+                    </li>
+                    <li><strong>رویدادها و کنفرانس‌ها:</strong>
+                        <ul>
+                            <li>کنفرانس سالانه IT "Voronezh IT Forum"</li>
+                            <li>رویدادهای استارتاپی و کارآفرینی "Startup Village"</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id="life" class="page" style="display:none;">
+            <h2>اقتصاد و اشتغال</h2>
+            <p>
+                وورونژ یکی از مراکز صنعتی روسیه است که در آن صنایع مختلفی از جمله صنایع هوایی، ماشین‌سازی و صنایع غذایی فعالیت دارند. بسیاری از مردم در این صنایع مشغول به کار هستند و شهر به دلیل موقعیت جغرافیایی خود، مرکز تجاری مهمی نیز محسوب می‌شود.
+            </p>
+        
+            <h2>آموزش و فرهنگ</h2>
+            <p>
+                این شهر دارای دانشگاه‌ها و مؤسسات آموزشی معتبر است که دانشجویان بسیاری را به خود جذب می‌کند. دانشگاه دولتی وورونژ یکی از قدیمی‌ترین و معتبرترین دانشگاه‌های روسیه است. علاوه بر این، وورونژ دارای تئاترها، موزه‌ها و کتابخانه‌های متعددی است که فرهنگ غنی این شهر را نمایان می‌کنند.
+            </p>
+        
+            <h2>زندگی اجتماعی</h2>
+            <p>
+                مردم وورونژ بسیار مهمان‌نواز و مهربان هستند و در این شهر، زندگی اجتماعی پویا و پر جنب و جوشی جریان دارد. کافه‌ها، رستوران‌ها و پارک‌های زیبا مکان‌های مناسبی برای گذراندن اوقات فراغت هستند.
+            </p>
+        
+            <h2>حمل و نقل</h2>
+            <p>
+                وورونژ دارای سیستم حمل و نقل عمومی پیشرفته‌ای است که شامل اتوبوس‌ها، ترامواها و قطارها می‌شود. این سیستم حمل و نقل به مردم امکان می‌دهد به راحتی در سطح شهر جا به جا شوند.
+            </p>
+        
+            <h2>آب و هوا</h2>
+            <p>
+                آب و هوای وورونژ قاره‌ای مرطوب است. زمستان‌ها سرد و برفی و تابستان‌ها گرم و مرطوب هستند. پاییز و بهار نیز با هوای معتدل و دلپذیر خود، فصولی زیبا برای زندگی در این شهر محسوب می‌شوند.
+            </p>
+        
+            <p>
+                در مجموع، زندگی در وورونژ با توجه به امکانات متنوع آموزشی، فرهنگی و رفاهی و نیز محیط زیبا و مردمان مهمان‌نواز، می‌تواند تجربه‌ای جذاب و رضایت‌بخش باشد.
+            </p>  
+        </div>
+        <div id="contact" class="page" style="display:none;">
+            <h1 id="contact-title">ارتباطات</h1>
+            <form onsubmit="showNotification('پیام شما ارسال شد!'); return false;">
+                <div class="form-group">
+                    <label for="name">نام:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">آدرس ایمیل:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">پیام:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">ارسال</button>
+            </form>
+            <h2>اطلاعات تماس</h2>
+            <p>شما می‌توانید با ما تماس بگیرید از طریق:</p>
+            <ul>
+                <li>تلفن: +7 999 000 00 00</li>
+                <li>ایمیل: info@voronezhsite.com</li>
+            </ul>
+        </ul>
+        <h2>نمبرهای اضطراری</h2>
+        <ul class="emergency-numbers">
+            <li><strong>پلیس:</strong> 102</li>
+            <li><strong>آتش‌نشانی:</strong> 101</li>
+            <li><strong>امداد و نجات:</strong> 103</li>
+        </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; ۲۰۲۴ دانشجویان افغانستان در ورونژ. تمامی حقوق محفوظ است.</p>
+            <div class="social-icons">
+                <a href="https://vk.com/govvrn36?from=search" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://t.me/+BkKukZv8dYplYTRi" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div id="notification" class="notification"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'fa'}, 'google_translate_element');
+        }
+
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.style.display = 'none';
+            });
+            document.getElementById(pageId).style.display = 'block';
+        }
+
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.classList.add('show');
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

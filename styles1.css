@@ -1,0 +1,377 @@
+:root {
+    --main-bg-image: url('images/asd.jpg');
+    --main-bg-color: rgba(0, 0, 0, 0.6);
+    --text-color: #fff;
+    --link-color: #ffffff;
+    --link-hover-color: #63a4ff;
+    --border-radius: 8px;
+    --padding: 1em;
+    --font-family: 'Arial', sans-serif;
+    --shadow-color: rgba(0, 0, 0, 0.6);
+    --header-bg-color: rgba(0, 0, 0, 0.6);
+    --footer-bg-color: rgba(0, 0, 0, 0.6);
+    --button-bg-color: #1e90ff;
+    --button-hover-bg-color: #63a4ff;
+    --footer-bg-image: url('images/footer-bg.jpg');
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-image: var(--main-bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--text-color);
+    direction: rtl;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+    padding: var(--padding) 0;
+    text-align: center;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+h1, h2 {
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 2em;
+}
+
+p {
+    background-color: var(--main-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    max-width: 800px;
+    margin: 2em auto;
+    line-height: 1.6;
+    text-align: justify;
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+a.button {
+    display: inline-block;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+a {
+    color: #fffb00; /* замените на нужный цвет */
+  }
+a:hover {
+    color: #008cff; /* замените на нужный цвет */
+  }
+
+a.button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+h1 a {
+    display: inline-block; /* Чтобы ссылка вела себя как блок и позволяла добавлять отступы и размеры */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 24px; /* Размер шрифта */
+    color: #fff; /* Цвет текста */
+    background-color: #007bff; /* Цвет фона */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Скругленные углы */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавные переходы для фона и трансформации */
+}
+
+/* Стили для ссылки при наведении */
+h1 a:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+/* Стили для ссылки при нажатии */
+h1 a:active {
+    background-color: #004085; /* Цвет фона при нажатии */
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: var(--padding);
+}
+
+.gallery-img {
+    max-width: calc(50% - 1em);
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    background-image: var(--footer-bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--text-color);
+    text-align: center;
+    padding: var(--padding) 0;
+    box-shadow: 0 -2px 4px var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+footer .social-icon {
+    font-size: 24px;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-icon:hover {
+    color: var(--link-hover-color);
+    transform: scale(1.1);
+}
+
+footer a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--link-hover-color);
+}
+
+.page {
+    display: none;
+}
+
+#home {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea, form button {
+    padding: 0.5em;
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+form button {
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+.notification {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.notification.show {
+    visibility: visible;
+    opacity: 1;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from { bottom: 0; opacity: 0; }
+    to { bottom: 30px; opacity: 1; }
+}
+
+@keyframes fadein {
+    from { bottom: 0; opacity: 0; }
+    to { bottom: 30px; opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+    from { bottom: 30px; opacity: 1; }
+    to { bottom: 0; opacity: 0; }
+}
+
+@keyframes fadeout {
+    from { bottom: 30px; opacity: 1; }
+    to { bottom: 0; opacity: 0; }
+}
+
+
+.emergency-numbers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    background: #f8f9fa; /* Светлый фон для списка */
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.emergency-numbers li {
+    background: #fff; /* Белый фон для элементов списка */
+    border: 1px solid #ddd; /* Легкая граница */
+    padding: 1em;
+    border-radius: var(--border-radius);
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    transition: background-color 0.3s ease; /* Плавный переход для фона при наведении */
+}
+
+.emergency-numbers li:hover {
+    background-color: #e9ecef; /* Цвет фона при наведении */
+}
+
+.emergency-numbers li strong {
+    color: #333; /* Темный цвет текста */
+    font-weight: bold; /* Жирный текст для выделения */
+}
+
+/* Иконки (если используются) */
+.emergency-numbers li::before {
+    content: "\1F6A8"; /* Пример иконки в формате Unicode (замените на нужную) */
+    margin-right: 0.5em;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+
+/* Стили для встраиваемого видео */
+iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    margin: 2em 0;
+}
+
+/* Добавленные секции */
+section {
+    background-color: var(--main-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    margin: 2em auto;
+}
+
+section h2 {
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 1em;
+}
+
+section ul ul {
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+
+section ul ul li {
+    margin-bottom: 0.5em;
+}
+.fas {
+    margin-right: 8px; /* Расстояние между иконкой и текстом */
+    vertical-align: middle;
+}
